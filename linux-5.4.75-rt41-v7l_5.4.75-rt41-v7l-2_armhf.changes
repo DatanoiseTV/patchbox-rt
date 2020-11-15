@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 15 Nov 2020 00:02:23 +0000
+Source: linux-5.4.75-rt41-v7l
+Binary: linux-headers-5.4.75-rt41-v7l linux-image-5.4.75-rt41-v7l linux-libc-dev
+Architecture: armhf
+Version: 5.4.75-rt41-v7l-2
+Distribution: buster
+Urgency: low
+Maintainer: patch <patch@patchbox>
+Changed-By: patch <patch@patchbox>
+Description:
+ linux-headers-5.4.75-rt41-v7l - Linux kernel headers for 5.4.75-rt41-v7l on armhf
+ linux-image-5.4.75-rt41-v7l - Linux kernel, version 5.4.75-rt41-v7l
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-5.4.75-rt41-v7l (5.4.75-rt41-v7l-2) buster; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ a2c2fd7bce7552f339620663a63825a4ca8df362 4915 linux-5.4.75-rt41-v7l_5.4.75-rt41-v7l-2_armhf.buildinfo
+ 4f36b4d1bfcb8082028bde1909aed85a319854e8 11304180 linux-headers-5.4.75-rt41-v7l_5.4.75-rt41-v7l-2_armhf.deb
+ c48ab40c276aba7342abfaad906979ab70e0207c 19656020 linux-image-5.4.75-rt41-v7l_5.4.75-rt41-v7l-2_armhf.deb
+ a2741dacabfd0a617d1aa60e4cfe8f580a84a6b9 1052252 linux-libc-dev_5.4.75-rt41-v7l-2_armhf.deb
+Checksums-Sha256:
+ 650c013582bb78a65373f25e20155c4424367387e68bea04521c6ba691dc6a16 4915 linux-5.4.75-rt41-v7l_5.4.75-rt41-v7l-2_armhf.buildinfo
+ 4277302c0f4191ee9015b4e0f39fd9a72206a09298f4637f23e6b02d3e7fcb27 11304180 linux-headers-5.4.75-rt41-v7l_5.4.75-rt41-v7l-2_armhf.deb
+ a18e19470acca00a795db95b37cfbce5a1c04222fcf23ff1a79a310cc63ff0cf 19656020 linux-image-5.4.75-rt41-v7l_5.4.75-rt41-v7l-2_armhf.deb
+ bc9c7028ea14494a6b189dd559faa53dfc540b6f0cd0e13fd3ba10e66e1e5884 1052252 linux-libc-dev_5.4.75-rt41-v7l-2_armhf.deb
+Files:
+ 36103714be33d5a56f2c457010ff8ea8 4915 kernel optional linux-5.4.75-rt41-v7l_5.4.75-rt41-v7l-2_armhf.buildinfo
+ 06352af1c298fd540c534fa6df3d8416 11304180 kernel optional linux-headers-5.4.75-rt41-v7l_5.4.75-rt41-v7l-2_armhf.deb
+ 0607f1206b9a57420443c35a4a6974ed 19656020 kernel optional linux-image-5.4.75-rt41-v7l_5.4.75-rt41-v7l-2_armhf.deb
+ 0eab9677e605da8488e219e9ca027c11 1052252 devel optional linux-libc-dev_5.4.75-rt41-v7l-2_armhf.deb
